@@ -11,13 +11,9 @@
  //the release version that corresponds to the opencv_world420.dll:
 #pragma comment(lib, "opencv_world4100.lib")
 #endif
-
-
-
 using namespace cv::flann;
 using namespace cv;
 using namespace std;
-
 
 void detectAndComputeFeatures(const Mat& img, std::vector<KeyPoint>& keypoints, Mat& descriptors) {
     // Create ORB object
@@ -35,20 +31,6 @@ std::vector<std::vector<int>> matToVector(const cv::Mat& mat) {
     }
     return vec;
 }
-
-//
-////TEST_CASE("check the image size") {
-////    Mat img1 = imread("C:\\Users\\win\\Pictures\\פרקטיקום\\pictures\\1.jpg", IMREAD_GRAYSCALE);
-////    Mat img2 = imread("C:\\Users\\win\\Pictures\\פרקטיקום\\pictures\\2.jpg", IMREAD_GRAYSCALE);
-////    Mat img3 = imread("C:\\Users\\win\\Pictures\\פרקטיקום\\pictures\\1.jpg", IMREAD_GRAYSCALE);
-////
-////   
-////    resize(img1, img1, img1.size() / 3);
-////    resize(img2, img2, img2.size() / 3);
-////
-////    CHECK(img1.size() == img2.size());
-////    CHECK_FALSE(img1.size() == img3.size());
-////}
 TEST_CASE("input is not empty") {
 
    Mat img1 = imread("C:\\Users\\win\\Pictures\\פרקטיקום\\pictures\\1.jpg", IMREAD_GRAYSCALE);
