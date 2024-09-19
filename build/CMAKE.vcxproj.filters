@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\The user\Desktop\פראקטיקום אמבדד\GPU\Cmake\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\The user\Desktop\פראקטיקום אמבדד\GPU\Cmake\HashTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\The user\Desktop\פראקטיקום אמבדד\GPU\Cmake\matchFeatures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\The user\Desktop\פראקטיקום אמבדד\GPU\Cmake\matchFeatures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\The user\Desktop\פראקטיקום אמבדד\GPU\Cmake\HashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\The user\Desktop\פראקטיקום אמבדד\GPU\Cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06CDECD6-2E54-3EEC-B7D7-19D16AF7A3CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D81F9CD4-2804-36B4-847C-89967E4D3CCA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

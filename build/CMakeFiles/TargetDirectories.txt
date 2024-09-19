@@ -1,0 +1,4 @@
+C:/Users/The user/Desktop/פראקטיקום אמבדד/GPU/Cmake/build/CMakeFiles/CMAKE.dir
+C:/Users/The user/Desktop/פראקטיקום אמבדד/GPU/Cmake/build/CMakeFiles/INSTALL.dir
+C:/Users/The user/Desktop/פראקטיקום אמבדד/GPU/Cmake/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/The user/Desktop/פראקטיקום אמבדד/GPU/Cmake/build/CMakeFiles/ZERO_CHECK.dir
